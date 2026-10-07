@@ -3,7 +3,7 @@
   "symbol": "USDT",
   "decimals": 18,
   "description": "Independent owner-controlled token project; not affiliated with Tether.",
-  "image": "assets/token-logo.png",
+  "image": "ipfs://QmdUshyLUMRgwy6Wirj6r3dwQsUddmrG2tVVfPXN8XfCjd",
   "network": "BNB Smart Chain Mainnet",
   "chainId": 56,
   "address": "0x55D39B342B5A093dDc1A296E8D5B745d93197955",
@@ -52,5 +52,6 @@
     "readAsProxy": "UNCONFIRMED: explorer page access blocked (HTTP 403)",
     "writeAsProxy": "UNCONFIRMED: explorer page access blocked (HTTP 403)",
     "checkedAt": "2026-10-06T20:23:26.705Z"
-  }
+  },
+  "referencePriceNotice": "The oracle returns a USDT/USD reference feed; it does not establish this token market price, backing or redemption value."
 }
