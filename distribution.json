@@ -1,6 +1,5 @@
 {
   "transactionsSent": 0,
-  "error": "fetch failed",
   "github": {
     "url": "https://github.com/TSLcrypto/bsc-token-metadata-oracle-v2",
     "visibility": "public"
@@ -25,5 +24,7 @@
     "CoinGecko": "Not submitted: authenticated partner account, completed project information and captcha required.",
     "CoinMarketCap": "Not submitted: project information and application workflow required."
   },
-  "onChainMetadataURIUnchanged": "ipfs://bafkreiboz75ccyj4imy6exixvhxqtrsomhc5hoq5rjgosutdfsds4whnse"
+  "onChainMetadataURIUnchanged": "ipfs://bafkreiboz75ccyj4imy6exixvhxqtrsomhc5hoq5rjgosutdfsds4whnse",
+  "status": "PUBLIC_GITHUB_AND_IPFS_PUBLISHED",
+  "checkedAt": "2026-10-07T13:56:52.022Z"
 }
