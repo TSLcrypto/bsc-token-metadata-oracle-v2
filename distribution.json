@@ -1,0 +1,29 @@
+{
+  "transactionsSent": 0,
+  "error": "fetch failed",
+  "github": {
+    "url": "https://github.com/TSLcrypto/bsc-token-metadata-oracle-v2",
+    "visibility": "public"
+  },
+  "ipfs": {
+    "logo": {
+      "cid": "QmdUshyLUMRgwy6Wirj6r3dwQsUddmrG2tVVfPXN8XfCjd",
+      "url": "https://gateway.pinata.cloud/ipfs/QmdUshyLUMRgwy6Wirj6r3dwQsUddmrG2tVVfPXN8XfCjd"
+    },
+    "metadata": {
+      "cid": "QmZoKXbM5veNSu6pSrBWhj57wBk4jUhQYa1oDiSAiYBBQJ",
+      "url": "https://gateway.pinata.cloud/ipfs/QmZoKXbM5veNSu6pSrBWhj57wBk4jUhQYa1oDiSAiYBBQJ"
+    },
+    "tokenlist": {
+      "cid": "Qme2fEB8U2U4ZsrTK3VTfUzJP8Ui3PtqGcAEtyqppmUu15",
+      "url": "https://gateway.pinata.cloud/ipfs/Qme2fEB8U2U4ZsrTK3VTfUzJP8Ui3PtqGcAEtyqppmUu15"
+    }
+  },
+  "tokenListTimestamp": "2026-10-07T13:56:45.350Z",
+  "externalListings": {
+    "BscScan": "Not submitted: requires project information and authenticated token-update workflow.",
+    "CoinGecko": "Not submitted: authenticated partner account, completed project information and captcha required.",
+    "CoinMarketCap": "Not submitted: project information and application workflow required."
+  },
+  "onChainMetadataURIUnchanged": "ipfs://bafkreiboz75ccyj4imy6exixvhxqtrsomhc5hoq5rjgosutdfsds4whnse"
+}
