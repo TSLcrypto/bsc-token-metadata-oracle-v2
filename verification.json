@@ -1,0 +1,53 @@
+{
+  "implementation": "0xb0168B79d09613598f2D4559fC75DD0343381510",
+  "proxy": "0x55D39B342B5A093dDc1A296E8D5B745d93197955",
+  "transactionsSent": 0,
+  "build": {
+    "compiler": "0.8.28+commit.7893614a",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "libraries": {},
+    "constructorArguments": [],
+    "fullyQualifiedName": "metadata-upgrade/contracts/UpgradeableTokenMetadataOracleV2.sol:UpgradeableTokenMetadataOracleV2",
+    "artifactSha256": "9f36c495c012d19a01e1014f87c2d9a196255f65a551f8a262f9f173b2e871e5"
+  },
+  "runtimeMatch": true,
+  "proxyImplementation": "0xb0168b79d09613598f2d4559fc75dd0343381510",
+  "exactSourcesAndCompilerSettingsMatch": true,
+  "outputSelectionNote": "BscScan normalizes requested compiler outputs; sources and bytecode-affecting settings match exactly.",
+  "verificationStatus": "VERIFIED",
+  "explorerBuild": {
+    "CompilerVersion": "v0.8.28+commit.7893614a",
+    "OptimizationUsed": "1",
+    "Runs": "200",
+    "ConstructorArguments": ""
+  },
+  "requiredABI": {
+    "metadataURI()": true,
+    "setMetadataURI(string)": true,
+    "getUSDTPrice()": true,
+    "setPriceFeed(address)": true,
+    "setMaxPriceAge(uint256)": true,
+    "contractURI()": true,
+    "owner()": true,
+    "upgradeToAndCall(address,bytes)": true
+  },
+  "abiAvailable": true,
+  "explorerProxyImplementation": "0xb0168b79d09613598f2d4559fc75dd0343381510",
+  "implementationPage": {
+    "httpStatus": 403
+  },
+  "proxyPage": {
+    "httpStatus": 403
+  },
+  "readAsProxy": "UNCONFIRMED: explorer page access blocked (HTTP 403)",
+  "writeAsProxy": "UNCONFIRMED: explorer page access blocked (HTTP 403)",
+  "completedAt": "2026-10-06T20:23:26.705Z"
+}
