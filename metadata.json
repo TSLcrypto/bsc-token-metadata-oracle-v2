@@ -1,0 +1,56 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 18,
+  "description": "Independent owner-controlled token project; not affiliated with Tether.",
+  "image": "assets/token-logo.png",
+  "network": "BNB Smart Chain Mainnet",
+  "chainId": 56,
+  "address": "0x55D39B342B5A093dDc1A296E8D5B745d93197955",
+  "implementation": "0xb0168B79d09613598f2D4559fC75DD0343381510",
+  "contract": "UpgradeableTokenMetadataOracleV2",
+  "owner": "0x0d520fc3551c34Bcb53580F3c3e8bA9FC37ef34a",
+  "contractURI": "ipfs://QmSxBm8pdnKerqNdCUDmd48HaZnZVy2noRfvZSVhLA99Ps",
+  "metadataURI": "ipfs://bafkreiboz75ccyj4imy6exixvhxqtrsomhc5hoq5rjgosutdfsds4whnse",
+  "oracle": {
+    "provider": "Chainlink",
+    "feed": "0xB97Ad0E74fa7d920791E90258A6E2085088b4320",
+    "pair": "USDT / USD",
+    "decimals": 8,
+    "maxPriceAge": 1800
+  },
+  "verification": {
+    "status": "VERIFIED",
+    "url": "https://bscscan.com/address/0xb0168B79d09613598f2D4559fC75DD0343381510#code",
+    "build": {
+      "compiler": "0.8.28+commit.7893614a",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "evmVersion": "paris",
+      "viaIR": false,
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "libraries": {},
+      "constructorArguments": [],
+      "fullyQualifiedName": "metadata-upgrade/contracts/UpgradeableTokenMetadataOracleV2.sol:UpgradeableTokenMetadataOracleV2",
+      "artifactSha256": "9f36c495c012d19a01e1014f87c2d9a196255f65a551f8a262f9f173b2e871e5"
+    },
+    "abiAvailable": true,
+    "requiredABI": {
+      "metadataURI()": true,
+      "setMetadataURI(string)": true,
+      "getUSDTPrice()": true,
+      "setPriceFeed(address)": true,
+      "setMaxPriceAge(uint256)": true,
+      "contractURI()": true,
+      "owner()": true,
+      "upgradeToAndCall(address,bytes)": true
+    },
+    "readAsProxy": "UNCONFIRMED: explorer page access blocked (HTTP 403)",
+    "writeAsProxy": "UNCONFIRMED: explorer page access blocked (HTTP 403)",
+    "checkedAt": "2026-10-06T20:23:26.705Z"
+  }
+}
